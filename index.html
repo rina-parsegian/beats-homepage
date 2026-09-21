@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A responsive recreation of the Beats homepage featuring headphones, earbuds, and speakers."
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Beats Homepage Recreation</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <a href="#" class="header-logo-link" aria-label="Beats home">
+          <img src="img/beats-logo.png" alt="beats logo" class="header-logo" />
+        </a>
+
+        <nav class="header-nav">
+          <ul class="header-nav__list">
+            <li class="header-nav__item">
+              <a href="#" class="header-nav__link">shop</a>
+            </li>
+            <li class="header-nav__item">
+              <a href="#" class="header-nav__link">support</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="header-icon">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
+        <!-- Header Mobile -->
+        <div class="header-mobile">
+          <!-- Toggle Buttons -->
+          <button
+            class="header-mobile__toggle"
+            type="button"
+            aria-label="Open navigation menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <i class="fa-solid fa-bars" aria-hidden="true"></i>
+            <i class="fa-regular fa-circle-xmark" aria-hidden="true"></i>
+          </button>
+
+          <div class="header-mobile__content" id="mobile-menu">
+            <!-- Navigation -->
+            <nav class="header-mobile__nav">
+              <ul class="header-mobile__list">
+                <li class="header-mobile__item">
+                  <a href="#" class="header-mobile__link">shop</a>
+                </li>
+                <li class="header-mobile__item">
+                  <a href="#" class="header-mobile__link">collaborations</a>
+                </li>
+                <li class="header-mobile__item">
+                  <a href="#" class="header-mobile__link">support</a>
+                </li>
+              </ul>
+            </nav>
+
+            <div class="header-mobile__card">
+              <img
+                src="img/mobile-nav-dads.jpg"
+                alt="Beats by Dre Dad's Day Collection"
+                class="header-mobile__card-img"
+              />
+              <div class="header-mobile__card-text-bg">
+                <h2 class="header-mobile__card-title">
+                  beats ultimate gift guide
+                </h2>
+                <p class="header-mobile__card-text">
+                  find inspiring gift ideas for father's day and graduation day.
+                </p>
+                <a href="#" class="header-mobile__card-link"
+                  >shop
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Promo Bar -->
+    <script src="js/main.js"></script>
+  </body>
+</html>

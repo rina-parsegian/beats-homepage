@@ -1,0 +1,20 @@
+{
+  "files.associations": {
+    "*.html": "html",
+    "*.css": "css",
+    "*.js": "javascript"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.suggestSelection": "first",
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.snippetSuggestions": "top",
+  "editor.wordBasedSuggestions": "matchingDocuments",
+  "editor.suggest.showKeywords": true,
+  "editor.suggest.showMethods": true,
+  "editor.suggest.showFunctions": true,
+  "editor.suggest.showClasses": true,
+  "editor.suggest.showProperties": true,
+  "editor.suggest.showWords": true
+} 
